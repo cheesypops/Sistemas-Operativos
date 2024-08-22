@@ -10,26 +10,20 @@ Console.WriteLine("Hello, World!");
 Counter counter = new Counter();
 
 // instanciar los hilos junto con las funciones que van a desempeñar
-Thread numThread = new Thread(() =>
-{
-    while (!counter.getStopNum())
-    {
+Thread numThread = new Thread(() => {
+    while (!counter.getStopNum()) {
         counter.incrementNumCount();
         Console.WriteLine("Num: " + counter.getNumCount());
     }
 });
-Thread minusThread = new Thread(() =>
-{
-    while (!counter.getStopNum())
-    {
+Thread minusThread = new Thread(() => {
+    while (!counter.getStopNum()) {
         counter.incrementMinusCount();
         Console.WriteLine("Minus: " + counter.getMinusCount());
     }
 });
-Thread capitalThread = new Thread(() =>
-{
-    while (counter.getCapitalCount() != 'Z')
-    {
+Thread capitalThread = new Thread(() => {
+    while (counter.getCapitalCount() != 'Z') {
         counter.incrementCapitalCount();
         Console.WriteLine("Capital: " + counter.getCapitalCount());
     }

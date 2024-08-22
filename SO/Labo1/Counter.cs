@@ -11,8 +11,7 @@ public class Counter
     private Boolean stopNum = false; // bandera para detener el contador de numeros
     
     // constructor
-    public Counter()
-    {
+    public Counter() {
         numCount = 0;
         minusCount = 'a';
         capitalCount = 'A';
@@ -20,68 +19,56 @@ public class Counter
     
     // metodos
     // getters y setters---------------------------------
-    public int getNumCount()
-    {
+    public int getNumCount() {
         return numCount;
     }
     
-    public char getMinusCount()
-    {
+    public char getMinusCount() {
         return minusCount;
     }
     
-    public char getCapitalCount()
-    {
+    public char getCapitalCount() {
         return capitalCount;
     }
     
-    public Boolean getStopMinus()
-    {
+    public Boolean getStopMinus() {
         return stopMinus;
     }
     
-    public Boolean getStopNum()
-    {
+    public Boolean getStopNum() {
         return stopNum;
     }
     // -----------------------------------------------------------------------------
-    public void setNumCount(int numCount)
-    {
+    public void setNumCount(int numCount) {
         this.numCount = numCount;
     }
     
-    public void setMinusCount(char minusCount)
-    {
+    public void setMinusCount(char minusCount) {
         this.minusCount = minusCount;
     }
     
-    public void setCapitalCount(char capitalCount)
-    {
+    public void setCapitalCount(char capitalCount) {
         this.capitalCount = capitalCount;
     }
     // ----------------------------------------------------------------------------------
-    public void incrementNumCount()
-    {
+    public void incrementNumCount() {
         numCount++;
         evaluateNumCount(); // evalua el contador de numeros
         Thread.Sleep(100);
     }
     
-    public void incrementMinusCount()
-    {
+    public void incrementMinusCount() {
         minusCount++;
         Thread.Sleep(200);
     }
     
-    public void incrementCapitalCount()
-    {
+    public void incrementCapitalCount() {
         capitalCount++;
         Thread.Sleep(150);
     }
     
     // metodo para evaluar el contador de numeros--------------------------------------
-    public void evaluateNumCount()
-    {
+    public void evaluateNumCount() {
         if(numCount == 20)
         {
             // si el numero es igual a 20, detiene el contador de minusculas
