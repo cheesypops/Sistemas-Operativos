@@ -4,7 +4,7 @@ using Labo1;
 using System;
 using System.Threading;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
 // instancia del contador
 Counter counter = new Counter();
