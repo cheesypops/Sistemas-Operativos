@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labo1", "Labo1\Labo1.csproj", "{C7E4F42A-0901-41B2-A8BD-5262DBD01D9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memory", "Memory\Memory.csproj", "{4942BBBC-8856-4989-A420-04C193960908}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C7E4F42A-0901-41B2-A8BD-5262DBD01D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E4F42A-0901-41B2-A8BD-5262DBD01D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E4F42A-0901-41B2-A8BD-5262DBD01D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4942BBBC-8856-4989-A420-04C193960908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4942BBBC-8856-4989-A420-04C193960908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4942BBBC-8856-4989-A420-04C193960908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4942BBBC-8856-4989-A420-04C193960908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
